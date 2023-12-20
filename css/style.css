@@ -58,15 +58,21 @@
   left: 10%;
 }
 .first-section__left-part2 {
+  position: relative;
   width: 50%;
   height: 476px;
   border: 1px solid black;
   border-top: none;
+  background-image: radial-gradient(red 10px, yellow 30%, #1e90ff 50%);
+  opacity: 0.5;
 }
 .first-section__left-part2 img {
+  position: relative;
   height: 100%;
   width: 100%;
   padding: 20px;
+  z-index: 0;
+  opacity: 0.5;
 }
 .first-section__for-ticker {
   border: 1px solid black;

@@ -47,6 +47,7 @@
         height: 100%
         padding: 20px
     &__left-img2
+
         position: absolute
         width: 555px
         height: 256px
@@ -54,14 +55,20 @@
         top: 20%
         left: 10%
     &__left-part2
+        position: relative
         width: 50%
         height: 476px
         border: 1px solid black
-        border-top: none
+        border-top: none 
+        background-image: radial-gradient(red 10px, yellow 30%, #1e90ff 50%)  
+        opacity: 0.5           
         img
+            position: relative
             height: 100%
             width: 100%
             padding: 20px
+            z-index: 0
+            opacity: 0.5
     &__for-ticker
         border: 1px solid black
         border-top: none
